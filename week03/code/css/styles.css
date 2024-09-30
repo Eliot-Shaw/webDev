@@ -1,0 +1,81 @@
+.button{
+    background-color: blueviolet;
+}
+
+.button:hover{
+    background-color: blue;
+}
+
+.christmas{
+    background-image: url(../assets/christmas-pattern.png);
+}
+
+body{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(12, 36, 13); 
+    color: azure;
+}
+
+p.title{
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+}
+p.greyed{
+    color: darkgrey;
+}
+
+.box{
+    flex: 1;
+}
+
+
+a{
+    color: beige;
+}
+a:hover{
+    color: cadetblue;
+}
+
+.bborder{
+    border: solid black;
+    text-align: center;
+}
+
+
+h3.cword {
+    margin: 10px;
+    font-size: 24px;
+    transition: transform 0.2s, color 0.2s;
+    display: inline-block;
+}
+h3.cword:nth-child(odd) {
+    transform: rotate(-5deg);
+}
+h3.cword:nth-child(even) {
+    transform: rotate(5deg);
+}
+h3.cword:hover {
+    transform: scale(1.1);
+}
+.word1 { color: #ffffff; }
+.word2 { color: #e0ffe0; }
+.word3 { color: #b2ffb2; }
+.word4 { color: #80ff80; }
+.word5 { color: #4dff4d; }
+.word6 { color: #ff99cc; }
+.word7 { color: #ccffcc; }
+.word8 { color: #99ccff; }
+.word9 { color: #ffcc99; }
+.word10 { color: #ffb3e6; }
+
+
+.cloud {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}

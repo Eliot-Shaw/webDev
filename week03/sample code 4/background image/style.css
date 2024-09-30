@@ -1,0 +1,67 @@
+*, *:before, *:after {     /* This makes sure all elements and their parts (before and after) have no extra space (margin or padding) */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+header img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(5px);
+}
+
+header h1, nav a, button {
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  height: 80px;
+  justify-content: center;
+  text-align: center;
+}
+
+nav a:first-child {
+  margin-right: auto;
+  font-size: 2em;
+  padding-top: 26px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 40px 25px 10px;
+}
+
+header h1 {
+  padding-top: 25vh;
+  font-weight: 400;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px;
+  background: none;
+  border: 1px solid;
+  transition: .3s;
+}
+
+button:hover {
+  background: #fff;
+  color: #000;
+}
