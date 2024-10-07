@@ -11,8 +11,7 @@
 }
 
 body {
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 99%;
     background-color: rgb(12, 36, 13);
     color: azure;
 }
@@ -118,10 +117,10 @@ h3.cword:hover {
 
 .topnav {
     z-index: 1;
-    width: 98.45%;
+    width: 99%;
     top: 0;
     position: fixed;
-    background-color: #333;
+    background-color: rgb(29, 61, 35);
 }
 
 .topnav a {
@@ -139,7 +138,7 @@ h3.cword:hover {
 }
 
 .topnav a.active {
-    background-color: #04AA6D;
+    background-color: rgba(127, 255, 212, 0.2);;
     color: beige;
 }
 
@@ -150,7 +149,7 @@ h3.cword:hover {
 
 .navbar ul{
     list-style-type: none;
-    background-color: grey;
+    background-color: rgb(42, 59, 45);
     padding-top: 50px;
     margin: 0px;
     width: 150px;
@@ -169,14 +168,13 @@ ul {
     unicode-bidi: isolate;
 }
 .navbar a {
-    color: white;
     text-decoration: none;
     padding: 15px;
     display: block;
     text-align: center;
 }
 .navbar a:hover {
-    background-color: green;
+    background-color: rgba(127, 255, 212, 0.2);;
 }
 
 
