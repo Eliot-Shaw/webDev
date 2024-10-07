@@ -1,0 +1,35 @@
+h1{
+	text-align: center;
+	margin:0;    /* to remove the blanck space btw the bar & heading*/
+}
+
+.navbar ul{
+	
+	     list-style-type: none;   /* to remove bullet points*/
+		 background-color: grey;
+		 padding: 0px;
+		 margin:0px;
+		 width: 150px;
+		 height: 100%;
+		 position: fixed; /* Make it stick, even on scroll */
+         overflow: auto; /* Enable scrolling if the sidenav has too much content */
+		 
+}
+
+.navbar a{
+	 color: white;
+	 text-decoration: none;   /* to remove underlines */
+	 padding: 15px;
+	 display: block;    /* to display these elements as a block */
+	text-align:center;
+}
+
+.navbar a:hover{
+	background-color: green; 
+}
+
+
+
+div {
+            margin-left: 0;   /* By setting the margin-left to zero for the <div>, text appears next to the vertical navigation bar.*/
+        }

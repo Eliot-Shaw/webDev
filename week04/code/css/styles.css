@@ -1,0 +1,247 @@
+.button {
+    background-color: blueviolet;
+}
+
+.button:hover {
+    background-color: blue;
+}
+
+.christmas {
+    background-image: url(../assets/christmas-pattern.png);
+}
+
+body {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(12, 36, 13);
+    color: azure;
+}
+
+p.title {
+    text-align: center;
+    font-weight: bolder;
+    font-size: x-large;
+    color: black;
+}
+
+p.greyed {
+    color: darkgrey;
+}
+
+.box {
+    flex: 1;
+}
+
+
+a {
+    color: beige;
+}
+
+a:hover {
+    color: cadetblue;
+}
+
+.bborder {
+    border: solid black;
+    text-align: center;
+}
+
+
+h3.cword {
+    margin: 10px;
+    font-size: 24px;
+    transition: transform 0.2s, color 0.2s;
+    display: inline-block;
+}
+
+h3.cword:nth-child(odd) {
+    transform: rotate(-5deg);
+}
+
+h3.cword:nth-child(even) {
+    transform: rotate(5deg);
+}
+
+h3.cword:hover {
+    transform: scale(1.1);
+}
+
+.word1 {
+    color: #ffffff;
+}
+
+.word2 {
+    color: #e0ffe0;
+}
+
+.word3 {
+    color: #b2ffb2;
+}
+
+.word4 {
+    color: #80ff80;
+}
+
+.word5 {
+    color: #4dff4d;
+}
+
+.word6 {
+    color: #ff99cc;
+}
+
+.word7 {
+    color: #ccffcc;
+}
+
+.word8 {
+    color: #99ccff;
+}
+
+.word9 {
+    color: #ffcc99;
+}
+
+.word10 {
+    color: #ffb3e6;
+}
+
+
+.cloud {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.topnav {
+    z-index: 1;
+    width: 98.45%;
+    top: 0;
+    position: fixed;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: beige;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: beige;
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding-top: 50px;
+    margin: 0px;
+    width: 150px;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: green;
+}
+
+
+.switchdiv {
+    display: flex;
+    margin-right: 20px;
+    margin-top: 7px;
+    float: right;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
