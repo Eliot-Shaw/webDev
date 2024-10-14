@@ -1,0 +1,160 @@
+@keyframes rainbow_animation {
+    0%,100% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 100% 0;
+    }
+}
+@keyframes moving_animation {
+    0%, 100%    {left:0px; top:0px;}
+    25%         {left:20px; top:0px;}
+    50%         {left:20px; top:20px;}
+    75%         {left:0px; top:20px;}
+}
+@keyframes bouncing_animation {
+    0%, 100% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 20px;
+        top: -10px; 
+    }
+    50% {
+        left: 20px;
+        top: 20px;
+    }
+    75% {
+        left: 0px;
+        top: -10px; 
+    }
+}
+@keyframes intricate_bouncing_animation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    10% {
+        left: 10px;
+        top: -5px; 
+    }
+    20% {
+        left: 20px;
+        top: 0px; 
+    }
+    30% {
+        left: 20px;
+        top: 10px; 
+    }
+    40% {
+        left: 15px;
+        top: 5px; 
+    }
+    50% {
+        left: 20px;
+        top: 20px; 
+    }
+    60% {
+        left: 15px;
+        top: 15px; 
+    }
+    70% {
+        left: 10px;
+        top: 25px; 
+    }
+    80% {
+        left: 5px;
+        top: 15px; 
+    }
+    90% {
+        left: 0px;
+        top: 20px; 
+    }
+    100% {
+        left: 0px;
+        top: 0px; 
+    }
+}
+@keyframes ample_bouncing_animation {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    10% {
+        left: 30px;   
+        top: -15px;   
+    }
+    20% {
+        left: 60px;   
+        top: 0px;     
+    }
+    30% {
+        left: 60px;   
+        top: 25px;    
+    }
+    40% {
+        left: 40px;   
+        top: 10px;    
+    }
+    50% {
+        left: 60px;   
+        top: 50px;    
+    }
+    60% {
+        left: 40px;   
+        top: 35px;    
+    }
+    70% {
+        left: 20px;   
+        top: 60px;    
+    }
+    80% {
+        left: 10px;   
+        top: 40px;    
+    }
+    90% {
+        left: 0px;    
+        top: 50px;    
+    }
+    100% {
+        left: 0px;
+        top: 0px;     
+    }
+}
+
+@keyframes interesting_bouncing_animation {
+    0%, 100% {
+        left: 0px;
+        top: 0px;
+    }
+    15% {
+        left: 40px;   
+        top: -20px;   
+    }
+    30% {
+        left: 40px;   
+        top: 0px;     
+    }
+    45% {
+        left: 30px;   
+        top: 15px;    
+    }
+    60% {
+        left: 50px;   
+        top: 0px;     
+    }
+    75% {
+        left: 70px;   
+        top: -10px;   
+    }
+    85% {
+        left: 80px;   
+        top: 20px;    
+    }
+    95% {
+        left: 50px;   
+        top: 0px;     
+    }
+}
