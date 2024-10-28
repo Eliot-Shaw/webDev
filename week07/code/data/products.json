@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Apple",
+        "category": "Fruits",
+        "price": 0.5,
+        "quantity": 100
+    },
+    {
+        "id": 2,
+        "name": "Banana",
+        "category": "Fruits",
+        "price": 0.3,
+        "quantity": 150
+    },
+    {
+        "id": 3,
+        "name": "Carrot",
+        "category": "Vegetables",
+        "price": 0.4,
+        "quantity": 200
+    },
+    {
+        "id": 4,
+        "name": "Chicken Breast",
+        "category": "Meat",
+        "price": 5.0,
+        "quantity": 50
+    },
+    {
+        "id": 5,
+        "name": "Rice",
+        "category": "Grains",
+        "price": 1.0,
+        "quantity": 300
+    },
+    {
+        "id": 6,
+        "name": "Milk",
+        "category": "Dairy",
+        "price": 1.5,
+        "quantity": 80
+    },
+    {
+        "id": 7,
+        "name": "Bread",
+        "category": "Bakery",
+        "price": 2.0,
+        "quantity": 120
+    },
+    {
+        "id": 8,
+        "name": "Cheese",
+        "category": "Dairy",
+        "price": 3.0,
+        "quantity": 60
+    }
+]
