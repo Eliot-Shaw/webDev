@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Alice Smith",
+        "email": "alice.smith@example.com",
+        "age": 28,
+        "grade": 60
+    },
+    {
+        "id": 2,
+        "name": "Bob Johnson",
+        "email": "bob.johnson@example.com",
+        "age": 34,
+        "grade": 45
+    },
+    {
+        "id": 3,
+        "name": "Charlie Brown",
+        "email": "charlie.brown@example.com",
+        "age": 22,
+        "grade": 98
+    },
+    {
+        "id": 4,
+        "name": "Diana Prince",
+        "email": "diana.prince@example.com",
+        "age": 30,
+        "grade": 10
+    }
+]

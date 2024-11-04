@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- <base target="_blank"> -->
+        <link rel="stylesheet" href="../css/styles.css">
+    </head>
+
+    <body>
+        <div id="top" style="display: flex;">
+            <div id="quizBeginDiv" style="padding: 20px; top: 50%;">
+                <button id="quizBegin" onclick="quizBegin()">Begin the quiz
+                    !</button>
+            </div>
+            <div id="quizTitle" style="flex: 1; text-align: center;"><h2>Quiz
+                    IMT</h2></div>
+
+            <div id="quizTimer" style="padding: 20px; top: 50%;"></div>
+        </div>
+        <br>
+        <h4>Question 0: Agreement</h4>
+        <input type="checkbox" id="nocheat" required
+            name="nocheat" /><label for="nocheat">I Will mot
+            cheat</label>
+        <br>
+        <br>
+        <div id="quizQuestions">
+            <form id="quizForm" style="display: none;">
+                <div id="question1">
+                    <h4>Question 1: choose option 1</h4>
+                    <div style="display: flex;">
+                        <div style="display: flex; padding-right:10px;">
+                            <div id="question1option1">
+                                <input type="radio" name="question1"
+                                    value="option1">
+                            </div>
+                            <label for="question1option1">option 1</label>
+                        </div>
+                        <br>
+                        <div style="display: flex; padding-right:10px;">
+                            <div id="question1option2">
+                                <input type="radio" name="question1"
+                                    value="option2">
+                            </div>
+                            <label for="question1option2">option 2</label>
+                        </div>
+                        <br>
+                        <div style="display: flex; padding-right:10px;">
+                            <div id="question1option3">
+                                <input type="radio" name="question1"
+                                    value="option3">
+                            </div>
+                            <label for="question1option3">option 3</label>
+                        </div>
+                        <br>
+                        <div style="display: flex; padding-right:10px;">
+                            <div id="question1option4">
+                                <input type="radio" name="question1"
+                                    value="option4">
+                            </div>
+                            <label for="question1option4">option 4</label>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+                <div id="question2">
+                    <h4>Question 2: choose option 2</h4>
+                    <div style="display: flex;">
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question2option1"><input type="radio"
+                                    name="question2"
+                                    value="option1"></div><label
+                                for="question2option1">option
+                                1</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question2option2"><input type="radio"
+                                    name="question2"
+                                    value="option2"></div><label
+                                for="question2option2">option
+                                2</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question2option3"><input type="radio"
+                                    name="question2"
+                                    value="option3"></div><label
+                                for="question2option3">option
+                                3</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question2option4"><input type="radio"
+                                    name="question2"
+                                    value="option4"></div><label
+                                for="question2option4">option
+                                4</label><br></div>
+                    </div>
+                </div>
+                <div id="question3">
+                    <h4>Question 3: choose option 3</h4>
+                    <div style="display: flex;">
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question3option1"><input type="radio"
+                                    name="question3"
+                                    value="option1"></div><label
+                                for="question3option1">option
+                                1</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question3option2"><input type="radio"
+                                    name="question3"
+                                    value="option2"></div><label
+                                for="question3option2">option
+                                2</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question3option3"><input type="radio"
+                                    name="question3"
+                                    value="option3"></div><label
+                                for="question3option3">option
+                                3</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question3option4"><input type="radio"
+                                    name="question3"
+                                    value="option4"></div><label
+                                for="question3option4">option
+                                4</label><br></div>
+                    </div>
+                </div>
+                <div id="question4">
+                    <h4>Question 4: choose option 4</h4>
+                    <div style="display: flex;">
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question4option1"><input type="radio"
+                                    name="question4"
+                                    value="option1"></div><label
+                                for="question4option1">option
+                                1</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question4option2"><input type="radio"
+                                    name="question4"
+                                    value="option2"></div><label
+                                for="question4option2">option
+                                2</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question4option3"><input type="radio"
+                                    name="question4"
+                                    value="option3"></div><label
+                                for="question4option3">option
+                                3</label><br></div>
+                        <div style="display: flex; padding-right:10px;"><div
+                                id="question4option4"><input type="radio"
+                                    name="question4"
+                                    value="option4"></div><label
+                                for="question4option4">option
+                                4</label><br></div>
+                    </div>
+                </div>
+            </form>
+            <br>
+            <br>
+            <button id="quizValidateButton" onclick="quizValidate()">Upload
+                Awnsers</button>
+        </div>
+
+        <br>
+        <div id="quizResult" style="display: none;">
+            <h3 id="quizResultTitle">Results: </h3>
+
+            <div id="quizResultText"></div>
+        </div>
+
+        <script src="../js/quiz.js"></script>
+    </body>
+</html>
