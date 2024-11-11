@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Array</title>
+
+        <script src="jquery-3.7.1.js"></script>
+
+        <script>
+
+            $(document).ready (function(){
+
+                $("#button").click(function(){
+
+                    $("#button").val("Thank You!");
+
+                });
+               
+                $("#button2").click(function(){
+
+                 $("#redDiv").fadeToggle("slow");
+
+                         });
+
+            });
+     
+         </script>
+
+    </head>
+    <body>
+        <div>
+           <h2>Example 1: Use button event in jQuery</h2>
+
+                               
+               <p> <input type="button"  value="click me" id="button"> </p>
+        
+
+            <h2>Example 2: Animating with jQuery</h2>
+
+            <div>
+
+               <p> <input type="button" value="Fade Toggle" id="button2"> </p>
+
+                <div id="redDiv" style="background-color: red; height: 150px; width: 150px; border: thin black solid;"></div>
+
+            </div>
+
+        </div>
+    </body>
+</html>
