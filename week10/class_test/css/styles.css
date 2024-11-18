@@ -1,0 +1,62 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.8);
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(224, 224, 224, 0.8);
+}
+
+/* Add this CSS rule to change the background when hovering */
+tr:hover {
+    background-color: rgba(255, 204, 203, 1);
+}
+
+#task2Table {
+    width: 40%;
+    height: 350px;
+}
+
+#task2TableAnimation {
+    position: relative;
+    animation: TableAnimation 4s infinite;
+}
+
+#task2TableColor {
+    animation: TableColor 3s infinite;
+}
+
+@keyframes TableColor {
+    0% { background: blue; }
+    25% { background: green; }
+    50% { background: #c0c0c0; }
+    75% { background: black; }
+    100% { background: blue; }
+}
+
+@keyframes TableColorYellow {
+    0% { background: yellow; }
+}
+
+@keyframes TableAnimation {
+    0% { left: 0px; top: 0px; }
+    25% { left: 100px; top: 0px; }
+    50% { left: 100px; top: 100px; }
+    75% { left: 0px; top: 100px; }
+    100% { left: 0px; top: 0px; }
+}

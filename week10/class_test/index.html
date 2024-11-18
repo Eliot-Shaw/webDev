@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html class="christmas">
+    <head>
+        <map name="musicSymbolMap">
+            <area shape="poly"
+                coords="80,176,59,193,53,210,67,224,84,221,99,214,116,200,120,183,119,63,147,77,161,89,168,111,165,139,173,125,175,107,168,88,160,73,151,60,139,47,129,31,119,13,120,1,113,3,111,174,98,169,89,171"
+                title="Music Symbol"
+                alt="Music Symbol"
+                href="https://www.art.com">
+        </map>
+        <base target="_blank">
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+
+    <body onload="onLoad()">
+        <h1 id="pageTitle">Practical Class test</h1>
+
+        <div id="task1">
+            <h2 id="task1Title">Task 1 : Interactive Music Symbol using Image
+                Map ( 20%)</h2>
+            <img title="musicSymbol" src="./assets/musicSymbol.png"
+                usemap="#musicSymbolMap">
+        </div>
+
+        <div id="task2">
+            <h2 id="task2Title">Task 2 : Stylish Animated Table with Interactive
+                Buttons ( 25%)</h2>
+            <h3>Stylish HTML Table</h3>
+            <div id="task2Table">
+                <div id="task2TableAnimation">
+                    <div id="task2TableColor">
+                        <div id="task2TableColorOverride">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Header 1</th>
+                                        <th>Header 2</th>
+                                        <th>Header 3</th>
+                                        <th>Header 4</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Data 1</td>
+                                        <td>Data 2</td>
+                                        <td>Data 3</td>
+                                        <td>Data 4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 5</td>
+                                        <td>Data 6</td>
+                                        <td>Data 7</td>
+                                        <td>Data 8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 9</td>
+                                        <td>Data 10</td>
+                                        <td>Data 11</td>
+                                        <td>Data 12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 13</td>
+                                        <td>Data 14</td>
+                                        <td>Data 15</td>
+                                        <td>Data 16</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Data 17</td>
+                                        <td>Data 18</td>
+                                        <td>Data 19</td>
+                                        <td>Data 20</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button id="task2ColorChangeButton"
+                onclick="task2ColorChangeButton()">Pause/Play Color change</button>
+            <button id="task2ColorSwitchButton"
+                onclick="task2ColorSwitchButton()">Switch to another color</button>
+            <button id="task2MovementChangeButton"
+                onclick="task2MovementChangeButton()">Pause/Play Movement</button>
+        </div>
+
+        <div id="task3">
+            <h2 id="task3Title">Task 3: Write a simple web page to calculate the
+                Basal Metabolic Rate (BMR) (25%)</h2>
+            <h3>BMR calculator</h3>
+
+            <label for="task3BMRage">Enter your age</label>
+            <input type="number" id="task3BMRage">
+            <br>
+            <label for="task3BMRweight">Enter your weight (kg)</label>
+            <input type="number" id="task3BMRweight">
+            <br>
+            <label for="task3BMRheight">Enter your height (cm)</label>
+            <input type="text" id="task3BMRheight">
+            <br>
+            <label for="task3BMRgender">Select your gender</label>
+            <select name="task3BMRgender" id="task3BMRgender">
+                <option style="color: #999;" value="unselected">Select your option</option>
+                <option value="0">Male</option>
+                <option value="1">Female</option>
+            </select>
+
+            <br>
+            <input type="button" value="Enter" onclick="task3BMRCalculate()">
+            <br>
+            <br>
+
+            <div id="task3BMRReturndiv"></div>
+        </div>
+
+        <div id="task4">
+            <h2 id="task3Title">Task4: Timed Quiz (30%)</h2>
+            <h3><a href="pages/quiz.html">Click to go to the quiz page</a></h3>
+        </div>
+
+        <script src="./js/script.js"></script>
+
+    </body>
+</html>
