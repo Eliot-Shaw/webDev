@@ -1,0 +1,304 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Apple",
+            "category": "Fruits",
+            "price": 1.2
+        },
+        {
+            "id": 2,
+            "name": "Banana",
+            "category": "Fruits",
+            "price": 0.5
+        },
+        {
+            "id": 3,
+            "name": "Orange",
+            "category": "Fruits",
+            "price": 1.0
+        },
+        {
+            "id": 4,
+            "name": "Strawberry",
+            "category": "Fruits",
+            "price": 3.0
+        },
+        {
+            "id": 5,
+            "name": "Pineapple",
+            "category": "Fruits",
+            "price": 2.5
+        },
+        {
+            "id": 6,
+            "name": "Carrot",
+            "category": "Vegetables",
+            "price": 0.8
+        },
+        {
+            "id": 7,
+            "name": "Broccoli",
+            "category": "Vegetables",
+            "price": 1.5
+        },
+        {
+            "id": 8,
+            "name": "Spinach",
+            "category": "Vegetables",
+            "price": 1.0
+        },
+        {
+            "id": 9,
+            "name": "Potato",
+            "category": "Vegetables",
+            "price": 0.6
+        },
+        {
+            "id": 10,
+            "name": "Bell Pepper",
+            "category": "Vegetables",
+            "price": 1.2
+        },
+        {
+            "id": 11,
+            "name": "Chicken Breast",
+            "category": "Meat",
+            "price": 5.5
+        },
+        {
+            "id": 12,
+            "name": "Ground Beef",
+            "category": "Meat",
+            "price": 6.0
+        },
+        {
+            "id": 13,
+            "name": "Pork Chops",
+            "category": "Meat",
+            "price": 7.0
+        },
+        {
+            "id": 14,
+            "name": "Salmon Fillet",
+            "category": "Meat",
+            "price": 8.5
+        },
+        {
+            "id": 15,
+            "name": "Turkey Breast",
+            "category": "Meat",
+            "price": 5.0
+        },
+        {
+            "id": 16,
+            "name": "Whole Wheat Bread",
+            "category": "Bakery",
+            "price": 2.5
+        },
+        {
+            "id": 17,
+            "name": "Croissant",
+            "category": "Bakery",
+            "price": 1.8
+        },
+        {
+            "id": 18,
+            "name": "Baguette",
+            "category": "Bakery",
+            "price": 2.0
+        },
+        {
+            "id": 19,
+            "name": "Cinnamon Roll",
+            "category": "Bakery",
+            "price": 2.8
+        },
+        {
+            "id": 20,
+            "name": "Sourdough Bread",
+            "category": "Bakery",
+            "price": 3.0
+        },
+        {
+            "id": 21,
+            "name": "Cheddar Cheese",
+            "category": "Dairy",
+            "price": 3.4
+        },
+        {
+            "id": 22,
+            "name": "Milk",
+            "category": "Dairy",
+            "price": 1.5
+        },
+        {
+            "id": 23,
+            "name": "Yogurt",
+            "category": "Dairy",
+            "price": 1.8
+        },
+        {
+            "id": 24,
+            "name": "Butter",
+            "category": "Dairy",
+            "price": 2.2
+        },
+        {
+            "id": 25,
+            "name": "Cream Cheese",
+            "category": "Dairy",
+            "price": 2.7
+        },
+        {
+            "id": 26,
+            "name": "Olive Oil",
+            "category": "Oils & Vinegars",
+            "price": 4.0
+        },
+        {
+            "id": 27,
+            "name": "Vegetable Oil",
+            "category": "Oils & Vinegars",
+            "price": 3.2
+        },
+        {
+            "id": 28,
+            "name": "Balsamic Vinegar",
+            "category": "Oils & Vinegars",
+            "price": 3.5
+        },
+        {
+            "id": 29,
+            "name": "Apple Cider Vinegar",
+            "category": "Oils & Vinegars",
+            "price": 2.5
+        },
+        {
+            "id": 30,
+            "name": "Coconut Oil",
+            "category": "Oils & Vinegars",
+            "price": 5.0
+        },
+        {
+            "id": 31,
+            "name": "Almonds",
+            "category": "Nuts & Seeds",
+            "price": 6.0
+        },
+        {
+            "id": 32,
+            "name": "Walnuts",
+            "category": "Nuts & Seeds",
+            "price": 7.5
+        },
+        {
+            "id": 33,
+            "name": "Cashews",
+            "category": "Nuts & Seeds",
+            "price": 8.0
+        },
+        {
+            "id": 34,
+            "name": "Chia Seeds",
+            "category": "Nuts & Seeds",
+            "price": 4.0
+        },
+        {
+            "id": 35,
+            "name": "Sunflower Seeds",
+            "category": "Nuts & Seeds",
+            "price": 3.5
+        },
+        {
+            "id": 36,
+            "name": "Chocolate Bar",
+            "category": "Sweets",
+            "price": 1.8
+        },
+        {
+            "id": 37,
+            "name": "Gummy Bears",
+            "category": "Sweets",
+            "price": 2.2
+        },
+        {
+            "id": 38,
+            "name": "Lollipops",
+            "category": "Sweets",
+            "price": 0.5
+        },
+        {
+            "id": 39,
+            "name": "Marshmallows",
+            "category": "Sweets",
+            "price": 1.0
+        },
+        {
+            "id": 40,
+            "name": "Candy Corn",
+            "category": "Sweets",
+            "price": 1.3
+        },
+        {
+            "id": 41,
+            "name": "Yogurt",
+            "category": "Frozen & Refrigerated",
+            "price": 1.5
+        },
+        {
+            "id": 42,
+            "name": "Frozen Pizza",
+            "category": "Frozen & Refrigerated",
+            "price": 4.5
+        },
+        {
+            "id": 43,
+            "name": "Ice Cream",
+            "category": "Frozen & Refrigerated",
+            "price": 3.2
+        },
+        {
+            "id": 44,
+            "name": "Frozen Vegetables",
+            "category": "Frozen & Refrigerated",
+            "price": 2.0
+        },
+        {
+            "id": 45,
+            "name": "Butter",
+            "category": "Frozen & Refrigerated",
+            "price": 2.4
+        },
+        {
+            "id": 46,
+            "name": "Tomato Sauce",
+            "category": "Sauces & Condiments",
+            "price": 2.2
+        },
+        {
+            "id": 47,
+            "name": "Soy Sauce",
+            "category": "Sauces & Condiments",
+            "price": 1.8
+        },
+        {
+            "id": 48,
+            "name": "Mayonnaise",
+            "category": "Sauces & Condiments",
+            "price": 3.0
+        },
+        {
+            "id": 49,
+            "name": "Mustard",
+            "category": "Sauces & Condiments",
+            "price": 1.5
+        },
+        {
+            "id": 50,
+            "name": "Hot Sauce",
+            "category": "Sauces & Condiments",
+            "price": 2.0
+        }
+    ]
+}
