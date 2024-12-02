@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html class="christmas">
+  <head>
+    <base target="_blank">
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+
+  <body onload="onLoad()" style="margin: 0; font-family: Arial, sans-serif;">
+    
+    <header>
+      <div class="topnav">
+          <a target="_self" class="active" href="../index.html">Home</a>
+          <a id="topnavCat" target="_self" href="../pages/cat.html">Cat</a>
+          <a id="topnavFish" target="_self" href="../pages/fish.html">Fish</a>
+      </div>
+  </header>
+
+    <div style="display: flex;">
+      
+      <div id="cart" style="position: fixed; width: 400px; padding: 20px; background-color: #f9f9f9; border-right: 1px solid #ddd;">
+        <br>      
+        <br>      
+        <h3>Shopping Cart</h3>
+        <ul id="cartItems"></ul>
+        <p>Total: $<span id="totalCost">0</span></p>
+        <button id="clearCart" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">Clear Cart</button>
+      </div>      
+      <div id="cartPh" style="width: 400px; padding: 20px; background-color: #f9f9f9; border-right: 1px solid #ddd;">
+      </div>
+
+      <div id="grandeSurface">
+        <br>      
+        <br>      
+        <h1>Shop aisles</h1>
+        <div id="productList" style="padding-left: 50px;">
+
+          <!-- *** -->
+           
+        </div>
+      </div>
+      
+    </div>
+    <script src="../js/shop.js"></script>
+  </body>
+</html>

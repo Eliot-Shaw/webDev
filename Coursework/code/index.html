@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html class="christmas">
+
+<head>
+    <base target="_blank">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body onload="onLoad()">
+    <header>
+        <div class="topnav">
+            <a target="_self" class="active" href="#home">Home</a>
+            <a id="topnavCat" target="_self" href="./pages/cat.html">Cat</a>
+            <a id="topnavFish" target="_self" href="./pages/fish.html">Fish</a>
+            <a id="topnavShop" target="_self" href="./pages/shop.html">Shop</a>
+            <div id="switchdiv" class="switchdiv">
+                <div id="darkModeText" style="margin-top: 7px; margin-right: 10px;">
+                </div>
+                <label class="switch">
+                    <input id="darkModeSwitch" type="checkbox" onchange="switchDarkMode()" unchecked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+            <div id="switchdiv" class="switchdiv">
+                <div id="topBarToggleSwitchText" style="margin-top: 7px; margin-right: 10px;">
+                </div>
+                <label class="switch">
+                    <input id="topBarToggleSwitch" type="checkbox" onchange="switchTopToggle()" unchecked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a target="_self" href="#top"> Top </a></li>
+                <li><a target="_self" href="#curriculum"> Curriculum
+                    </a></li>
+                <li><a target="_self" href="#skills"> Skills </a></li>
+                <li><a target="_self" href="#bottom"> Bottom </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div style="margin-left: 200px;">
+
+        <h1 id="top" style="margin-top: 48px; text-align: center; color: rgb(255, 172, 172);">My
+            main
+            page</h1>
+
+        <div style="max-width: fit-content; margin-left: auto; margin-right: auto;">
+            <div
+                style="background-image: url(./assets/montagnes.jpg); background-repeat: no-repeat; width: 800px; height: 200px; align-content: center;">
+                <p class="title">
+                    Eliot SHAW
+                </p>
+                <br>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <div class="card">
+            <div class="cardInner">
+                <div class="cardFront">
+                    <h5>
+                        <a href="youtube.com">Check out my Github</a>
+                    </h5>
+                    <img class="catImg" src="./assets/cat.jpg">
+
+                    <h4>This is not my cat</h4>
+                    <p>But it still is beautiful</p>
+                </div>
+                <div class="cardBack">
+                    <h5>Missed</h5>
+                    <h5>
+                        Good luck next time ;)
+
+                        You need to be fast
+                    </h5>
+                    <img class="fishImg" src="./assets/fish.jpg">
+                </div>
+            </div>
+        </div>
+        <br>
+        <div id="shop">
+            <h1>Get to the shop using the top navbar !</h1>
+        </div>
+
+        <br>
+        <div id="textProcessing">
+            <h1>TextProcessing !</h1>
+            <textarea name="textProcessingTextAreaName" id="textProcessingTextAreaId"></textarea>
+            <button onclick="textProcessingButton()">Process the text !</button>
+            <br>
+            <div id="textProcessingReponse"></div>
+        </div>
+        
+        <br>
+        <div id="jqueryy">
+            <div style="width: 400px; padding: 20px; background-color: rgba(43, 25, 25, 0.8); border: 1px solid #eee6e6;">
+                <h2>Interactive Task</h2>
+        
+                <label for="datepicker">Choose a Date:</label>
+                <input type="text" id="datepicker" class="ui-widget ui-widget-content"><br><br>
+                <br>
+        
+                <label for="slider">Slider Example:</label>
+                <br>
+                <div id="slider"></div>
+                <br>
+                <p>Slider Value: <span id="sliderValue">50</span></p>
+                
+                <br>
+                <button id="openDialogButton">Get info</button>
+                <div id="dialog" title="Dialog Box" style="display:none;">
+                    <p>Hola !</p>
+                    <p>I may have not done the last part :/</p>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        
+        <p>Do you know the dark reader extention for the dark mode on approximatly every page of the web ?</p>
+        <p>Now you do</p>
+        <br>
+
+
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+        <script src="./js/jquery/jquery-3.7.1.js"></script>
+        <script src="./js/jquery/jquery-ui.js"></script>
+        <script src="./js/jquery/jQuery_script.js"></script>
+        <script src="./js/index.js"></script>
+
+</body>
+
+</html>

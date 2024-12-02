@@ -1,0 +1,428 @@
+[
+    {
+        "id": 2,
+        "name": "Banana",
+        "category": "Fruits",
+        "price": 0.5,
+        "image": "../assets/products/banana.png"
+    },
+    {
+        "id": 3,
+        "name": "Orange",
+        "category": "Fruits",
+        "price": 1.0,
+        "image": "../assets/products/orange.png"
+    },
+    {
+        "id": 4,
+        "name": "Strawberry",
+        "category": "Fruits",
+        "price": 3.0,
+        "image": "../assets/products/strawberry.png"
+    },
+    {
+        "id": 5,
+        "name": "Pineapple",
+        "category": "Fruits",
+        "price": 2.5,
+        "image": "../assets/products/pineapple.png"
+    },
+    {
+        "id": 6,
+        "name": "Carrot",
+        "category": "Vegetables",
+        "price": 0.8,
+        "image": "../assets/products/carrot.png"
+    },
+    {
+        "id": 7,
+        "name": "Broccoli",
+        "category": "Vegetables",
+        "price": 1.5,
+        "image": "../assets/products/broccoli.png"
+    },
+    {
+        "id": 8,
+        "name": "Spinach",
+        "category": "Vegetables",
+        "price": 1.0,
+        "image": "../assets/products/spinach.png"
+    },
+    {
+        "id": 9,
+        "name": "Potato",
+        "category": "Vegetables",
+        "price": 0.6,
+        "image": "../assets/products/potato.png"
+    },
+    {
+        "id": 10,
+        "name": "Bell Pepper",
+        "category": "Vegetables",
+        "price": 1.2,
+        "image": "../assets/products/pepper.png"
+    },
+    {
+        "id": 12,
+        "name": "Ground Beef",
+        "category": "Meat",
+        "price": 6.0,
+        "image": "../assets/products/Beef.png"
+    },
+    {
+        "id": 13,
+        "name": "Pork Chops",
+        "category": "Meat",
+        "price": 7.0,
+        "image": "../assets/products/Pork.png"
+    },
+    {
+        "id": 14,
+        "name": "Salmon Fillet",
+        "category": "Meat",
+        "price": 8.5,
+        "image": "../assets/products/Salmon.png"
+    },
+    {
+        "id": 15,
+        "name": "Turkey Breast",
+        "category": "Meat",
+        "price": 5.0,
+        "image": "../assets/products/chicken.png"
+    },
+    {
+        "id": 16,
+        "name": "Whole Wheat Bread",
+        "category": "Bakery",
+        "price": 2.5,
+        "image": "../assets/products/Bread1.png"
+    },
+    {
+        "id": 17,
+        "name": "Croissant",
+        "category": "Bakery",
+        "price": 1.8,
+        "image": "../assets/products/Croissant.png"
+    },
+    {
+        "id": 18,
+        "name": "Baguette",
+        "category": "Bakery",
+        "price": 2.0,
+        "image": "../assets/products/Baguette.png"
+    },
+    {
+        "id": 19,
+        "name": "Cinnamon Roll",
+        "category": "Bakery",
+        "price": 2.8,
+        "image": "../assets/products/Cinnamon.png"
+    },
+    {
+        "id": 20,
+        "name": "Sourdough Bread",
+        "category": "Bakery",
+        "price": 3.0,
+        "image": "../assets/products/Bread2.png"
+    },
+    {
+        "id": 21,
+        "name": "Cheddar Cheese",
+        "category": "Dairy",
+        "price": 3.4,
+        "image": "../assets/products/Cheese.png"
+    },
+    {
+        "id": 22,
+        "name": "Milk",
+        "category": "Dairy",
+        "price": 1.5,
+        "image": "../assets/products/Milk.png"
+    },
+    {
+        "id": 23,
+        "name": "Yogurt",
+        "category": "Dairy",
+        "price": 1.8,
+        "image": "../assets/products/Yogurt.png"
+    },
+    {
+        "id": 24,
+        "name": "Butter",
+        "category": "Dairy",
+        "price": 2.2,
+        "image": "../assets/products/Butter.png"
+    },
+    {
+        "id": 25,
+        "name": "Cream Cheese",
+        "category": "Dairy",
+        "price": 2.7,
+        "image": "../assets/products/Cream.png"
+    },
+    {
+        "id": 26,
+        "name": "Olive Oil",
+        "category": "Oils & Vinegars",
+        "price": 4.0,
+        "image": "../assets/products/Oil.png"
+    },
+    {
+        "id": 27,
+        "name": "Vegetable Oil",
+        "category": "Oils & Vinegars",
+        "price": 3.2,
+        "image": "../assets/products/sunflower.png"
+    },
+    {
+        "id": 30,
+        "name": "Coconut Oil",
+        "category": "Oils & Vinegars",
+        "price": 5.0,
+        "image": "../assets/products/Coconut.png"
+    },
+    {
+        "id": 31,
+        "name": "Almonds",
+        "category": "Nuts & Seeds",
+        "price": 6.0,
+        "image": "../assets/products/Almonds.png"
+    },
+    {
+        "id": 32,
+        "name": "Walnuts",
+        "category": "Nuts & Seeds",
+        "price": 7.5,
+        "image": "../assets/products/Walnut.png"
+    },
+    {
+        "id": 33,
+        "name": "Cashews",
+        "category": "Nuts & Seeds",
+        "price": 8.0,
+        "image": "../assets/products/Cashew.png"
+    },
+    {
+        "id": 34,
+        "name": "Chia Seeds",
+        "category": "Nuts & Seeds",
+        "price": 4.0,
+        "image": ""
+    },
+    {
+        "id": 35,
+        "name": "Sunflower Seeds",
+        "category": "Nuts & Seeds",
+        "price": 3.5,
+        "image": "../assets/products/Sunflower.png"
+    },
+    {
+        "id": 36,
+        "name": "Chocolate",
+        "category": "Sweets",
+        "price": 1.8,
+        "image": "../assets/products/Chocolate2.png"
+    },
+    {
+        "id": 37,
+        "name": "Gummy Bears",
+        "category": "Sweets",
+        "price": 2.2,
+        "image": "../assets/products/Bears.png"
+    },
+    {
+        "id": 38,
+        "name": "Lollipops",
+        "category": "Sweets",
+        "price": 0.5,
+        "image": ""
+    },
+    {
+        "id": 39,
+        "name": "Marshmallows",
+        "category": "Sweets",
+        "price": 1.0,
+        "image": ""
+    },
+    {
+        "id": 40,
+        "name": "Candy Corn",
+        "category": "Sweets",
+        "price": 1.3,
+        "image": "../assets/products/Candy.png"
+    },
+    {
+        "id": 41,
+        "name": "Ice cubes",
+        "category": "Frozen & Refrigerated",
+        "price": 1.5,
+        "image": "../assets/products/Ice.png"
+    },
+    {
+        "id": 42,
+        "name": "Frozen Pizza",
+        "category": "Frozen & Refrigerated",
+        "price": 4.5,
+        "image": "../assets/products/Pizza.png"
+    },
+    {
+        "id": 43,
+        "name": "Ice Cream",
+        "category": "Frozen & Refrigerated",
+        "price": 3.2,
+        "image": "../assets/products/Icevanilia.png"
+    },
+    {
+        "id": 44,
+        "name": "Frozen Vegetables",
+        "category": "Frozen & Refrigerated",
+        "price": 2.0,
+        "image": "../assets/products/Vegetables.png"
+    },
+    {
+        "id": 45,
+        "name": "Spiders",
+        "category": "Frozen & Refrigerated",
+        "price": 2.4,
+        "image": "../assets/products/party.png"
+    },
+    {
+        "id": 46,
+        "name": "Tomato Sauce",
+        "category": "Sauces & Condiments",
+        "price": 2.2,
+        "image": "../assets/products/Tomato.png"
+    },
+    {
+        "id": 47,
+        "name": "Soy Sauce",
+        "category": "Sauces & Condiments",
+        "price": 1.8,
+        "image": "../assets/products/Soy.png"
+    },
+    {
+        "id": 48,
+        "name": "Mayonnaise",
+        "category": "Sauces & Condiments",
+        "price": 3.0,
+        "image": "../assets/products/Mayonnaise.png"
+    },
+    {
+        "id": 49,
+        "name": "Mustard",
+        "category": "Sauces & Condiments",
+        "price": 1.5,
+        "image": "../assets/products/Mustard.png"
+    },
+    {
+        "id": 50,
+        "name": "Hot Sauce",
+        "category": "Sauces & Condiments",
+        "price": 2.0,
+        "image": "../assets/products/Hot.png"
+    },
+    {
+        "id": 82206,
+        "name": "Grapes",
+        "category": "Fruits",
+        "price": 2.0,
+        "image": ""
+    },
+    {
+        "id": 82207,
+        "name": "Mango",
+        "category": "Fruits",
+        "price": 1.8,
+        "image": "../assets/products/Mango.png"
+    },
+    {
+        "id": 82208,
+        "name": "Watermelon",
+        "category": "Fruits",
+        "price": 4.0,
+        "image": "../assets/products/Watermelon.png"
+    },
+    {
+        "id": 82211,
+        "name": "Dates",
+        "category": "Nuts & Seeds",
+        "price": 3.5,
+        "image": "../assets/products/Dates.png"
+    },
+    {
+        "id": 82212,
+        "name": "Peanuts",
+        "category": "Nuts & Seeds",
+        "price": 4.0,
+        "image": "../assets/products/Peanuts.png"
+    },
+    {
+        "id": 82213,
+        "name": "Frozen fish",
+        "category": "Frozen & Refrigerated",
+        "price": 2.5,
+        "image": "../assets/products/fish.png"
+    },
+    {
+        "id": 82214,
+        "name": "Frozen Corn",
+        "category": "Frozen & Refrigerated",
+        "price": 2.0,
+        "image": "../assets/products/Corn.png"
+    },
+    {
+        "id": 82215,
+        "name": "Frozen mammouth",
+        "category": "Frozen & Refrigerated",
+        "price": 5.0,
+        "image": "../assets/products/mammouth.png"
+    },
+    {
+        "id": 82216,
+        "name": "Chocolate Ice Cream",
+        "category": "Frozen & Refrigerated",
+        "price": 4.5,
+        "image": "../assets/products/Icechocolate.png"
+    },
+    {
+        "id": 82217,
+        "name": "Frozen Fries",
+        "category": "Frozen & Refrigerated",
+        "price": 3.0,
+        "image": "../assets/products/Fries.png"
+    },
+    {
+        "id": 82218,
+        "name": "Frozen Vegetables",
+        "category": "Frozen & Refrigerated",
+        "price": 3.2
+    },
+    {
+        "id": 82219,
+        "name": "Ketchup",
+        "category": "Sauces & Condiments",
+        "price": 1.5,
+        "image": "../assets/products/Ketchup.png"
+    },
+    {
+        "id": 82220,
+        "name": "Bread",
+        "category": "Bakery",
+        "price": 1.8,
+        "image": ""
+    },
+    {
+        "id": 82221,
+        "name": "Pain Au Chocolat",
+        "category": "Bakery",
+        "price": 2.2,
+        "image": "../assets/products/Pain_au_chocolat.jpg"
+    },
+    {
+        "id": 82222,
+        "name": "Muffin",
+        "category": "Bakery",
+        "price": 1.7,
+        "image": "../assets/products/cupcake.png"
+    }
+]
